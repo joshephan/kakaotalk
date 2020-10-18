@@ -1,10 +1,7 @@
 export default {
-  // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-
-  // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'kakaotalk-generator',
+    title: '카카오톡 생성기',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +11,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
     "@/assets/global.scss"
